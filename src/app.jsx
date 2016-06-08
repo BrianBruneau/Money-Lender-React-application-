@@ -1,7 +1,8 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 const Home = require('./components/Home');
-const About = require('./components/About')
+const Borrow = require('./components/Borrow');
+const Signup = require('./components/Signup');
 const Router = require('react-router').Router;
 const Route = require('react-router').Route;
 const Link = require('react-router').Link;
@@ -13,7 +14,7 @@ const App = React.createClass({
     return (
       <Router history={browserHistory}>
         <Route path="/" component={Home} />
-        <Route path="/About" component={About} />
+        <Route path="/Borrow" component={Borrow} />
         <Route path="/Signup" component={Signup} />
       </Router>
     );
