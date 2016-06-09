@@ -11,7 +11,7 @@ router.route('/')
     });
   })
   .post(function(req, res) {
-    console.log(req.body)
+    console.log("creatting borrow", req.body)
     Borrow.create(req.body, function(err, borrow) {
       console.log("error:", err, "borrow:", borrow)
       if (err) return res.status(500).send(err);
