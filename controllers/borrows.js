@@ -15,7 +15,6 @@ router.route('/')
     Borrow.create(req.body, function(err, borrow) {
       if (err) return res.status(500).send(err);
       res.send(borrow);
-      transitionTo('/');
     });
   });
 

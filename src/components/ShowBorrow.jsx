@@ -12,6 +12,14 @@ const ShowBorrow = React.createClass({
   handleUser: function(event) {
     this.setState({user_id: event.target.value});
   },
+  handleRedirect: function(res){
+      if( res.status === 200 ){
+          // redirect here
+          window.location.href = '/MyLoans';
+      }else {
+        console.log(err);
+      }
+  },
   lendSuccess: function(event) {
     console.log("thisOne:",this.props.params.id)
     fetch('/api/loans', {
@@ -26,7 +34,7 @@ const ShowBorrow = React.createClass({
       borrow_id: this.state.borrow_id,
       amount: this.state.amount
     })
-  })
+  }).then(this.handleRedirect)
   },
   componentWillMount: function() {
     fetch(`/api/borrows`)

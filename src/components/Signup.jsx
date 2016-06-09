@@ -2,13 +2,22 @@ const React = require('react');
 
 const Signup = React.createClass({
         getInitialState: function() {
-            return {username: '', password: '', role: ''};
+            return {username: '', password: ''};
           },
           handleUsername: function(event) {
             this.setState({username: event.target.value});
           },
           handlePassword: function(event) {
             this.setState({password: event.target.value});
+          },
+          handleRedirect: function(res){
+            if( res.status === 200 ){
+                // redirect here
+                window.location.href = '/';
+            }else {
+              console.log(err);
+            }
+
           },
           consoleLog: function(event) {
             fetch('/api/users', {
@@ -20,9 +29,8 @@ const Signup = React.createClass({
             body: JSON.stringify({
               name: this.state.username,
               password: this.state.password,
-              role: this.state.role
             })
-          })
+          }).then(this.handleRedirect)
           },
           render: function() {
             return (

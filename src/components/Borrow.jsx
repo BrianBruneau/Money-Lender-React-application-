@@ -13,6 +13,15 @@ const Borrow = React.createClass({
   handleUser: function(event) {
     this.setState({user: event.target.value});
   },
+  handleRedirect: function(res){
+      if( res.status === 200 ){
+          // redirect here
+          window.location.href = '/Lend';
+      }else {
+        console.log(err);
+      }
+
+  },
   consoleLog: function(event) {
     fetch('/api/borrows', {
     method: 'POST',
@@ -25,7 +34,7 @@ const Borrow = React.createClass({
       amount: this.state.amount,
       pb_date: this.state.payback
     })
-  })
+  }).then(this.handleRedirect) 
   },
 
   render: function() {
