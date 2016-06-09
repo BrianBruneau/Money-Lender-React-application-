@@ -2,7 +2,7 @@ const React = require('react');
 
 const Signup = React.createClass({
         getInitialState: function() {
-            return {username: '', password: ''};
+            return {username: '', password: '', role: ''};
           },
           handleUsername: function(event) {
             this.setState({username: event.target.value});
@@ -11,7 +11,18 @@ const Signup = React.createClass({
             this.setState({password: event.target.value});
           },
           consoleLog: function(event) {
-            console.log(this.state.username, this.state.password);
+            fetch('/api/users', {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              name: this.state.username,
+              password: this.state.password,
+              role: this.state.role
+            })
+          })
           },
           render: function() {
             return (
@@ -24,6 +35,8 @@ const Signup = React.createClass({
                 value={this.state.username}
                 onChange={this.handleUsername}
               />
+              <br>
+              </br>
               <input
                 placeholder="Password"
                 type="text"

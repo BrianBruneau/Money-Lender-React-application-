@@ -7,6 +7,17 @@ var userSchema = new mongoose.Schema({
   role: String
 });
 
+userSchema.set('toJSON', {
+  transform: function(doc, ret, options) {
+    var returnJson = {
+      id: ret._id,
+      email: ret.email,
+      name: ret.name
+    };
+    return returnJson;
+  }
+});
+
 var User = mongoose.model('User', userSchema);
 
 // make this available to our other files
