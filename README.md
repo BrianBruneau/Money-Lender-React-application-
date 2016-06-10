@@ -48,9 +48,9 @@ Another hurdle was communicating with the API through React frontend and Node.js
 
 ## What I will add in the Future/ Uncompleted needs.
 
-1) I will implement a User authentication feature.
-2) I will set up credit card linking funcionality, and deal with legal issues.
-3) I will make the design perfect, and completely remove any bootstrappy looking elements.
+* I will implement a User authentication feature.
+* I will set up credit card linking funcionality, and deal with legal issues.
+* I will make the design perfect, and completely remove any bootstrappy looking elements.
 
 ## Authors
 
