@@ -35,8 +35,8 @@ const Signup = React.createClass({
           render: function() {
             return (
               <div>
-              <h1>Signup</h1>
-              <form>
+              <h1 className='borrow_title'>Signup</h1>
+              <form className='form-style-4'>
               <input
                 placeholder="Username"
                 type="text"
@@ -52,7 +52,7 @@ const Signup = React.createClass({
                 onChange={this.handlePassword}
               />
               
-              <button type="button" onClick={this.consoleLog}>Submit</button>
+              <button className="borrow_submit"  type="button" onClick={this.consoleLog}>Submit</button>
               </form>
               </div>
             );

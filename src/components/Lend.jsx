@@ -19,16 +19,16 @@ const Lend = React.createClass({
   render: function() {
     const results = this.state.results.map((borrow, idx) => {
     return (
-      <div className="well" key={idx}>
-        <h2>Lend:&nbsp;<Link to={`/ShowBorrow/${borrow._id}`} >{borrow.amount}</Link>&nbsp; or less</h2>
-        <button onClick={this.deleteTask}> delete task </button>
+      <div className="form-style-5" key={idx}>
+        <h2>{borrow.user_id} needs &nbsp;<Link to={`/ShowBorrow/${borrow._id}`} >{borrow.amount}</Link>&nbsp;, or less.</h2>
+        <button className="loan_button"><Link to={`/ShowBorrow/${borrow._id}`}> LoanShark it</Link> </button>
       </div>
     );
   });
 
     return (
       <div>
-        <h1 id="">Lend your money!</h1>
+        <h1 className="borrow_title">Lend your money!</h1>
         <div>{results}</div>
       </div>
     );

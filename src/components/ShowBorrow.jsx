@@ -66,42 +66,44 @@ const ShowBorrow = React.createClass({
     console.log("haha",this.state.results[0])
     const results = this.state.results.map((borrow, idx) => {
     return (
-      <div className="well" key={idx}>
+      <div className="form-style-5 well" key={idx}>
         <h2>User: &nbsp;{borrow.user_id}</h2>
         <h2>Amount needed: &nbsp;{borrow.amount}</h2>
         <h3>Payback date: &nbsp;{borrow.pb_date}</h3>
-         <button onClick={this.show}>Choose amount to Lend.</button>
+         <button className="loan_button" onClick={this.show}>Help a fella out</button>
       </div>
     );
   });
 
     return (
       <div>
-        <h1 id="aboutdot">show</h1>
-        <Modal show={this.state.showModal} onHide={this.close}>
-          <Modal.Header closeButton>
-            <Modal.Title>Input amount to Lend.</Modal.Title>
+        <h1 class="aboutdot">Loan Shark</h1>
+        <Modal  show={this.state.showModal} onHide={this.close}>
+          <Modal.Header className="modal_ya" closeButton>
+            <Modal.Title className="form_greeting modal_ya">Input amount to Lend.</Modal.Title>
           </Modal.Header>
-          <Modal.Body>
-            <div>
-            <input
+          <Modal.Body className="modal_ya">
+            <div className="form-style-6">
+            <input className="modal_inp"
                 placeholder="username"
                 type="text"
                 value={this.state.user_id}
                 onChange={this.handleUser}
               />
+              <br> 
+              </br>
             <input
                 placeholder="$$"
                 type="text"
                 value={this.state.amount}
                 onChange={this.handleAmount}
               />
-              <button type="button" onClick={this.lendSuccess}>Submit</button>
+              <button id="sub_lend_button" type="button" onClick={this.lendSuccess}>Submit</button>
               </div>
 
           </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.close}>Close</Button>
+          <Modal.Footer className="modal_ya">
+            <Button id="modal_closer" onClick={this.close}>Close</Button>
           </Modal.Footer>
         </Modal>
         <div>

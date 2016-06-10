@@ -40,9 +40,9 @@ const Borrow = React.createClass({
   render: function() {
     return (
       <div>
-        <h1> How much do you need? </h1>
-        <form>
-          <input
+        <h1 className="borrow_title"> Apply for a loan.</h1>
+        <form className="form-style-4">
+          <input className="borrow_form"
             placeholder="Username"
             type="text"
             value={this.state.user}
@@ -50,7 +50,7 @@ const Borrow = React.createClass({
           />
           <br>
           </br>
-          <input
+          <input className="borrow_form"
             placeholder="amount needed"
             type="text"
             value={this.state.amount}
@@ -58,14 +58,14 @@ const Borrow = React.createClass({
           />
           <br>
           </br>
-          <input
+          <input className="borrow_form"
             placeholder="payback date"
             type="text"
             value={this.state.payback}
             onChange={this.handlePayback}
           />
           
-          <button type="button" onClick={this.consoleLog}>Submit</button>
+          <button className="borrow_submit" type="button" onClick={this.consoleLog}>Submit</button>
           </form>
       </div>
     );

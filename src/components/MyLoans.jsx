@@ -20,7 +20,7 @@ const Loan = React.createClass({
     const results = this.state.results.map((loan, idx) => {
     return (
 
-      <div className="well" key={idx}>
+      <div className="form-style-5 well" key={idx}>
         <h2>You Lent:&nbsp;{loan.amount} to {loan.client_id} on account of: <Link to={`/ShowBorrow/${loan.borrow_id}`}>{loan.borrow_id}</Link> </h2>
       </div>
     );
@@ -28,7 +28,7 @@ const Loan = React.createClass({
 
     return (
       <div>
-        <h1 id="">Your loans!</h1>
+        <h1 className="aboutdot">Your loans!</h1>
         <div>{results}</div>
       </div>
     );
