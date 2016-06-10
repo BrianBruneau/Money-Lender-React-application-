@@ -2,7 +2,11 @@
 
 Lender is my fourth and final project for WDI course at General Assembly. It's puropose is to create a social environment for lending money. Now anybody can be a loan shark! Loan money, get back money with interest, request a loan, and pay back with some interest!
 
-![Alt text](./lenderShot.png?raw=true "Lender App")
+![Alt text](./img/lenderShot.png?raw=true "Lender App")
+![Alt text](./img/wire1.png?raw=true "Wireframes")
+![Alt text](./img/wire2.png?raw=true )
+![Alt text](./img/wire3.png?raw=true )
+![Alt text](./img/wire4.png?raw=true )
 
 ## Getting Started
 
