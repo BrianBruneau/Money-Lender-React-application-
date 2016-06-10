@@ -1,0 +1,265 @@
+
+.nav_brian {
+  background-color: #6a6581;
+  opacity: 0.7;
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  height: 65px;
+  margin-bottom: 100px;
+  
+}
+
+body {
+  background-size: cover;
+  background-image: url('http://www.pptbackgrounds.org/uploads/money-on-black-abstract-template-powerpoint-backgrounds.gif');
+}
+
+.nav_brian a {
+  margin-top: 10px; 
+  color: #dadfff !important;
+}
+
+.header_brian {
+  font-size: 35px;
+  margin-right: 27px;
+  color: #dadfff !important;
+}
+
+#loan_btn {
+  font-size: 55px;
+  font-family: 'Poiret One', cursive;
+  background-color: #ccd2ff;
+  margin-top: 300px;
+  margin-left: 150px;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+}
+
+#request_btn {
+  font-size: 45px;
+  font-family: 'Poiret One', cursive;
+  background-color: #ccd2ff;
+  height: 150px;
+  width: 300px;
+  margin-top: 300px;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+
+
+
+
+.aboutdot {
+  color: silver;
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+}
+
+#container, body {
+  margin-top: 60px;
+}
+
+.borrow_submit {
+  margin-left: 25px;
+  border-radius: 2px;
+  border-color: #010101;
+  border-width: 3px;
+  background-color: silver;
+}
+
+.borrow_form {
+  margin-bottom: 5px;
+}
+
+.borrow_title {
+  font-family: 'Poiret One', cursive;
+  color: silver;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+#sub_lend_button {
+  position: absolute;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  width: 200px;
+  color: #085e1e;
+  background-color: #fffaf3;
+
+}
+
+.modal_ya {
+  background-color: black;
+
+}
+
+#modal_closer {
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px; 
+}
+
+.loan_button {
+  color: #006bb3;
+  border-color: #001a33;
+  background-color: #001a33;
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-left: 450px;
+}
+
+.modal_inp {
+  margin-bottom: 20px;
+}
+
+.form_greeting {
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #085e1e;
+}
+
+
+.form-style-6 input{
+    width: 200px;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+    color: #085e1e;
+    border: 2px double #085e1e;
+}
+
+.form-style-6{
+    width: 450px;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+    color: #999966;
+    padding: 30px 30px 15px 30px;
+}
+
+.form-style-5{
+    width: 700px;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+    color: #999966;
+    background: #495C70;
+    padding: 30px 30px 15px 30px;
+    border: 7px double #53687E;
+}
+
+.form-style-4{
+    width: 450px;
+    font-size: 16px;
+    background: #495C70;
+    padding: 30px 30px 15px 30px;
+    border: 7px double #53687E;
+}
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+
+}
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=text],
+.form-style-4 input[type=email] 
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.form-style-4 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+
+
+
+
+
+.navbar-simple .brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-simple .navbar-inner {
+  background: #fff;
+  filter: none !important;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.navbar-simple .navbar-inner .nav {
+  float: right;
+}
+.navbar-simple .navbar-inner .nav li a {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #777;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+.navbar-simple .navbar-inner .nav li a:hover {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #bf3604;
+}   
+.navbar-simple .navbar-inner .nav li.active a {
+  color: #bf3604;
+}

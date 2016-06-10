@@ -1,0 +1,44 @@
+{
+  "name": "project4",
+  "version": "1.0.0",
+  "description": "Project 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianBruneau/project4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianBruneau/project4/issues"
+  },
+  "homepage": "https://github.com/BrianBruneau/project4#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "bootstrap-sass": "^3.3.6",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^2.4.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.4.20",
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "^0.14.8",
+    "react-redux": "^4.4.5",
+    "react-redux-form": "^0.13.7",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
