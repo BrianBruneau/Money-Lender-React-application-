@@ -77,7 +77,7 @@ const ShowBorrow = React.createClass({
 
     return (
       <div>
-        <h1 class="aboutdot">Loan Shark</h1>
+        <h1 className="aboutdot">Loan Shark</h1>
         <Modal  show={this.state.showModal} onHide={this.close}>
           <Modal.Header className="modal_ya" closeButton>
             <Modal.Title className="form_greeting modal_ya">Input amount to Lend.</Modal.Title>

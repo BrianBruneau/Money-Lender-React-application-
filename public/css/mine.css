@@ -9,6 +9,11 @@
   
 }
 
+body {
+  background-size: cover;
+  background-image: url('http://www.pptbackgrounds.org/uploads/money-on-black-abstract-template-powerpoint-backgrounds.gif');
+}
+
 .nav_brian a {
   margin-top: 10px; 
   color: #dadfff !important;
@@ -20,7 +25,27 @@
   color: #dadfff !important;
 }
 
+#loan_btn {
+  font-size: 55px;
+  font-family: 'Poiret One', cursive;
+  background-color: #ccd2ff;
+  margin-top: 300px;
+  margin-left: 150px;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+}
 
+#request_btn {
+  font-size: 45px;
+  font-family: 'Poiret One', cursive;
+  background-color: #ccd2ff;
+  height: 150px;
+  width: 300px;
+  margin-top: 300px;
+  margin-left: 200px;
+  display: inline-block;
+}
 
 
 
@@ -33,7 +58,6 @@
 }
 
 #container, body {
-  background-color: black;
   margin-top: 60px;
 }
 
@@ -119,7 +143,7 @@
 .form-style-5{
     width: 700px;
     font-size: 16px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Poiret One', cursive;
     color: #999966;
     background: #495C70;
     padding: 30px 30px 15px 30px;
